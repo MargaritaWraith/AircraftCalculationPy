@@ -3,7 +3,7 @@ from tkinter import messagebox
  
 def display_mass_nagr():
     M_cn = N.get()*m.get()
-    M = M_cn * 1.1/(1 - m_con.get() - m_t.get() - m_s.get() - m_su.get())
+    M = M_cn * 1.15/(1 - m_con.get() - m_t.get() - m_s.get() - m_su.get())
     messagebox.showinfo("Массы", "Масса целевой нагрузки: " + str(M_cn) + " кг\n" 
                                 "Полная масса: " + str(M) + " кг")
 
